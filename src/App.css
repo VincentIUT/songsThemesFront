@@ -2,3 +2,53 @@
   text-align: center;
 }
 
+.container {
+  display: flex;
+  padding: 60px 160px;
+  justify-content: space-between;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  text-align: left;
+}
+
+.form-title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.span {
+  margin-bottom: 12px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.send-btn {
+  margin-left: 10px;
+  border: none;
+  border-radius: 20px;
+  background-color: lightblue;
+  color: white;
+  font-weight: 700;
+  padding: 4px 12px;
+  cursor: pointer;
+}
+
+.results {
+  margin-top: 20px;
+
+}
+
+.result {
+  margin-top: 8px;
+  
+}
+
+.form {
+  display: flex;
+  align-items: center;
+}
